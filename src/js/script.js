@@ -12,12 +12,12 @@ function newRow() {
     <input type="text" name="technology"><br><br>
     
     <label for="experience">Tempo de experiência</label><br>
-    <label>0-2 anos</label>
-    <input type="radio" name="experienceTime" value="0-2 anos">
-    <label>3-4 anos</label>
-    <input type="radio" name="experienceTime" value="3-4 anos">
-    <label>5+ anos</label>
-    <input type="radio" name="experienceTime" value="5+ anos"><br><br>
+    <label for="zeroTwoYears">0-2 anos</label>
+    <input type="radio" name="experienceTime" value="0-2 anos" id="zeroTwoYears">
+    <label for="threeFourYears">3-4 anos</label>
+    <input type="radio" name="experienceTime" value="3-4 anos" id="threeFourYears">
+    <label for="fiveOrMoreYears">5+ anos</label>
+    <input type="radio" name="experienceTime" value="5+ anos" id="fiveOrMoreYears"><br><br>
 
     <button class="removeTechnology" type="button">Remover tecnologia</button>`
 
